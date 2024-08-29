@@ -1,0 +1,170 @@
+.background{
+    background-image: url(pictures/wallpaperlogin.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+.divlogin{
+    display: flex;
+    flex-direction: row;
+    border:1px solid white;
+    filter: blur(10px);
+    
+}
+
+.login{
+   
+    border: 1px solid white;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+    box-shadow: 2px 2px 6px rgb(154, 154, 154);
+   
+   
+}
+.text-login{
+   
+    display: block;
+  
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    
+}
+
+.username-label{
+    
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    background: transparent;
+    width: 250px;
+    color: rgb(255, 255, 255); 
+    outline: none;
+    font-size: 14px; 
+    border: 1px solid white; 
+}
+.username-icon{
+    position: relative;
+    top:-35px;
+    left: 200px;
+   
+    display: inline-block;
+   width: 30px;
+   height: 30px;
+    
+  
+
+}
+.username-iconsymbol{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.username-label::placeholder{
+    color: rgb(249, 246, 246);
+    opacity: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.password-label{
+    margin-top: -20px;
+   
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.password{
+   padding-left: 10px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   width: 240px;
+   border-radius: 20px;
+   background: transparent;
+   outline: none;
+  border: 1px solid white;
+   color: white;
+}
+.password::placeholder{
+    color: white;
+    font-size: 15px;
+}
+.password-icon-symbol{
+    position: relative;
+    top:-45px;
+    left: 200px;
+    
+    display: inline-block;
+   width: 30px;
+   height: 30px;
+}
+.flexbox{
+    display: flex;
+    
+    justify-content: space-between;
+    margin-top: -40px;
+    align-items: center;
+}
+.sideflex{
+    display: flex;
+   
+}
+.link{
+    color: white;
+    font-weight: 3px;
+
+}
+
+button {
+    margin-left: 25px;
+    padding: 10px 70px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background:transparent;
+    color: white;
+    border: 3px solid white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.5s ease;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  button:hover {
+    letter-spacing: 5px;
+    background:transparent;
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(170, 165, 177) 0px 7px 29px 0px;
+  }
+  
+  button:active {
+    letter-spacing: 3px;
+    background:transparent;
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(177, 167, 195) 0px 0px 0px 0px;
+    transform: translateY(8px);
+    transition: transform 100ms ease-in;
+  }
+.textend{
+    margin-left: 10px;
+}
+  
